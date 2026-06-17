@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f6f7fb;
-  --foreground: #0b1120;
+  --background: #f5f8f6;
+  --foreground: #0a1410;
 }
 
 @theme inline {
@@ -14,8 +14,8 @@
 
 body {
   background:
-    radial-gradient(1200px 600px at 100% -10%, rgba(99, 102, 241, 0.12), transparent 60%),
-    radial-gradient(900px 500px at -10% 0%, rgba(14, 165, 233, 0.10), transparent 55%),
+    radial-gradient(1200px 600px at 100% -10%, rgba(5, 150, 105, 0.10), transparent 60%),
+    radial-gradient(900px 500px at -10% 0%, rgba(13, 148, 136, 0.08), transparent 55%),
     var(--background);
   color: var(--foreground);
   font-family: var(--font-sans);
@@ -47,7 +47,7 @@ input[type="number"] {
 }
 
 @utility text-gradient {
-  background: linear-gradient(95deg, #4f46e5, #0ea5e9);
+  background: linear-gradient(95deg, #047857, #0d9488);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
